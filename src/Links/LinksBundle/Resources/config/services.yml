@@ -1,0 +1,7 @@
+parameters:
+#    links_links.example.class: Links\LinksBundle\Example
+
+services:
+#    links_links.example:
+#        class: %links_links.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

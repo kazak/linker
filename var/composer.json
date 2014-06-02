@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sonata-project/admin-bundle": "dev-master"
+    }
+}
