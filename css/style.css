@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+p {
+    margin: 10px;
+}
+
+h1 {
+    color: black;
+    margin: 2%;
+    text-align: center;
+    text-shadow: 1.5px 1.2px #777777;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+nav {
+    background-color: #dddddd;
+    height: 35px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul li {
+    display: inline-table;
+    margin: 5px;
+    border: 1px solid #4444aa;
+    border-radius: 5px;
+    padding: 2px 10px;
+    -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-30deg); /* Для Firefox */
+    -o-transform: skewX(-30deg); /* Для Opera */
+    -ms-transform: skewX(-30deg); /* Для IE */
+    transform: skewX(-30deg); /* CSS3 */
+}
+
+nav ul li:hover {
+    background-color: #dd7777;
+}
+
+nav ul li a {
+    color: #111144;
+    text-decoration: none;
+    display: block;
+    -webkit-transform: skewX(30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(30deg); /* Для Firefox */
+    -o-transform: skewX(30deg); /* Для Opera */
+    -ms-transform: skewX(30deg); /* Для IE */
+    transform: skewX(30deg); /* CSS3 */
+}
+
+nav ul {
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    background-color: #fefefe;
+    border: 1px solid #4444aa;
+    border-radius: 10px;
+    color: #111144;
+    display: block;
+    margin: 5px auto;
+    padding: 3%;
+    width: 90%;
+}
+
+#index {
+    top: 40px;
+    position: relative;
+}
+
+.bxslider {
+    padding: 0px;
+}
