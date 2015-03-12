@@ -78,3 +78,18 @@ section {
 .bxslider {
     padding: 0px;
 }
+
+.left_reg, .right_reg {
+    display: table-cell;
+    padding: 10px;
+}
+
+.left_reg {
+    border-right: 1px dotted #000000;
+    width: 30%;
+}
+
+#registing {
+    text-align: center;
+    width: 100%;
+}
