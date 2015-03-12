@@ -1,3 +1,0 @@
-links_links_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: LinksLinksBundle:Default:index }
