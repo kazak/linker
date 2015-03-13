@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?
+    <?php
     include_once("tpl/head.php");
     ?>
 </head>
@@ -17,13 +17,13 @@
 
 <div id="index">
 
-    <?
+    <?php
     include_once("tpl/menu/top_nav.php");
     ?>
 
     <section id="header" class="section_show">
         <!-- bxslider -->
-        <?
+        <?php
         include_once("tpl/components/index_slider.php");
         ?>
 
@@ -31,7 +31,7 @@
 
     <section id="top_info" class="section_hide">
 
-        <?
+        <?php
         include_once("tpl/top_info.php");
         ?>
 
@@ -43,7 +43,7 @@
     -->
     <section id="register" class="section_hide">
 
-        <?
+        <?php
         include_once("tpl/register.php");
         ?>
 
@@ -64,7 +64,7 @@
 
 </div>
 
-<?
+<?php
  include_once("tpl/footer.php");
 ?>
 

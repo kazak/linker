@@ -12,7 +12,7 @@
         <form action="module/register.php">
             <label for="email">Email</label>
             </br>
-            <input type="email" name="email">
+            <input type="email" placeholder="email" name="email">
             </br>
             <label for="pass">Пароль</label>
             </br>
@@ -30,9 +30,9 @@
             </br>
             <label for="pass">Пароль</label>
             </br>
-            <input type="password" name="pass">
+            <input type="password" placeholder="email" name="pass">
             </br>
-            <input type="url" name="http">
+            <input type="url" name="http" placeholder="http://">
             </br>
             <label for="type_site">Тип вашего ресурса</label>
             </br>
