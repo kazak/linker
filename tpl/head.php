@@ -20,4 +20,5 @@
 <!-- bxSlider Javascript file -->
 <script src="/js/jquery.bxslider.min.js"></script>
 <!-- bxSlider CSS file -->
+<link href="/css/jquery-ui.css" rel="stylesheet">
 <link href="/css/jquery.bxslider.css" rel="stylesheet" />
