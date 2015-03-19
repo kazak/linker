@@ -29,13 +29,15 @@
 
     </section>
 
-    <section id="top_info" class="section_hide">
 
+    <div id="top_info">
         <?php
         include_once("tpl/top_info.php");
         ?>
+    </div>
 
-    </section>
+
+
     <!--
     <section id="rules" class="section_hide">
 

@@ -14,3 +14,10 @@ $( ".right_reg" ).hover(function() {
             width:'10%'
         },100);
     });
+
+$(function() {
+    $( "#accordion" ).accordion({
+        
+        heightStyle: "content"
+    });
+});

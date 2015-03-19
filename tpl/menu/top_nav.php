@@ -11,8 +11,8 @@
         <li class="header"><a href="#header">В нвчало</a></li>
         <li class="top_info"><a href="#top_info">Описание</a></li>
         <li class="rules"><a href="#rules">Правила</a></li>
-        <li class="register"><a href="#register">Вход/Ркгистрация</a></li>
         <li class="partners"><a href="#partners">Партнеры</a></li>
         <li class="contact"><a href="#contact">Контакты</a></li>
+        <li class="register"><a href="#register">Вход/Ркгистрация</a></li>
     </ul>
 </nav>
