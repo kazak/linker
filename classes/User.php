@@ -51,6 +51,74 @@ class User {
      */
     static function RegUser($params)
     {
+        $check = User::ValidParam($params);
 
+        if($check == "GO"){
+            //записываем юзвера в базу
+
+
+        }else{
+            return $check;
+        }
+
+    }
+
+    /**
+     * @param $params
+     * @return array|string
+     */
+    static function ValidParam($params)
+    {
+
+        if($params['email'])
+        {
+
+        }else{
+            return array( 'param' => 'email', 'message' => 'email не введен' );
+        }
+
+        if($params['pass'])
+        {
+
+        }else{
+            return array( 'param' => 'pass', 'message' => 'пароль не введен' );
+        }
+
+        if($params['web'])
+        {
+
+        }else{
+            return array( 'param' => 'web', 'message' => 'web-адресс не введен' );
+        }
+
+        if($params['type'])
+        {
+
+        }else{
+            return array( 'param' => 'type', 'message' => 'web-адресс не введен' );
+        }
+
+        return "GO";
+
+    }
+
+    static function ValidEmail()
+    {
+
+    }
+
+    static function ValidPassReg()
+    {
+
+    }
+
+    static function ValidWeb()
+    {
+
+    }
+
+    static function ValidType()
+    {
+        
     }
 } 
